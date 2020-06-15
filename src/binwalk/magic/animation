@@ -20,3 +20,15 @@
 >4  ulelong     0                   {invalid}
 >4  ulelong     x                   File size (header included) %d
 >4  ulelong     x                   {size:%d}
+
+0   string      CWS                 Compressed Adobe Flash SWF file (SWF Compressed),
+>3  byte        <1                  {invalid}
+>3  byte        x                   Version %d,
+>4  ulelong     0                   {invalid}
+>4  ulelong     x                   Uncompressed file size (header included) %d
+
+0   string      ZWS                 Zipped Adobe Flash SWF file (SWF Zipped),
+>3  byte        <1                  {invalid}
+>3  byte        x                   Version %d,
+>4  ulelong     0                   {invalid}
+>4  ulelong     x                   Uncompressed file size (header included) %d
